@@ -55,20 +55,24 @@ define('NONCE_SALT',       'm-Y3$LgJ*#eipB_#$vyJjgV~Gurn`|O{%5r5)8(!e[i)s#EURnlV
 /**
  * WordPress Database Table prefix.
  *
- * You can have multiple installations in one database if you give each a unique
- * prefix. Only numbers, letters, and underscores please!
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix  = 'wp_';
 
 /**
- * WordPress Localized Language, defaults to English.
+ * For developers: WordPress debugging mode.
  *
- * Change this to localize WordPress.  A corresponding MO file for the chosen
- * language must be installed to wp-content/languages. For example, install
- * de.mo to wp-content/languages and set WPLANG to 'de' to enable German
- * language support.
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ *
+ * For information on other constants that can be used for debugging,
+ * visit the Codex.
+ *
+ * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define ('WPLANG', '');
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -78,6 +82,3 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
-error_reporting(E_ALL); ini_set('display_errors', 1);
-define( 'WP_DEBUG', true);
