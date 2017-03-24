@@ -1,0 +1,372 @@
+/*
+Theme Name: Best Edinburgh Flat
+Theme URI: http://www.bestedinburghflat.co.uk
+Description: Flat rental in Edinburgh
+Version: 1
+Author: I Designs
+Author URI: http://www.idesigns.ltd.uk
+*/
+
+
+
+	
+/* ----------General Layout/Styles---------- */
+
+body {
+	background:url(images/bg.png) repeat-y center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:15px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+#wrapper {
+	width:900px;
+	text-align:left;
+	margin: 0 auto -32px;
+	padding:auto;
+	min-height: 100%;
+	position: relative;
+}
+
+/*#header {
+	padding-top:66px;
+	background:url(images/top.png) no-repeat;
+}*/
+
+#menu {
+	margin:0px 0px 0px 22px;
+}
+
+#menu ul {
+	display:inline;
+	padding:0px;
+	margin:10px 0px;
+	list-style:none;
+}
+
+#menu li a {
+	display:inline;
+	float:left;
+	font-size:14px;
+	padding:40px 20px 15px;
+	display:block;
+	text-decoration:none;
+	border-left:#000 dotted 1px;
+	text-transform:uppercase;
+	color:#61131a;
+}
+
+#menu li a:hover {
+	background:url(images/menubg.png) repeat-x bottom;
+}
+
+#menu .last a {
+	border-right:#000 dotted 1px;
+}
+
+#left {
+	width:240px;
+	float:left;
+	margin:0 20px 20px;
+}
+
+#left h1 a {
+	display:block;
+	background:url(images/logo.png);
+	width:240px;
+	height:300px;
+	text-indent:-9999px;
+}
+
+#left li {
+	padding:0px;
+	list-style:none;
+	color:#464749;
+}
+
+#left li h2 {
+	padding:8px;
+	margin:0px;
+	list-style:none;
+	background-color:#61131A;
+	color:#FFF;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-size:18px;
+	line-height:120%;
+}
+
+#left li .textwidget {
+	padding:8px;
+	margin:0px;
+	background-color:#d5d8da;
+}
+
+#left li ul {
+	padding:8px;
+	margin:0px;
+	background-color:#d5d8da;
+}
+
+#left li ul li {
+	margin:0 0 5px;
+	padding:0 0 5px;
+	border-bottom:#464749 1px dotted;
+}
+
+#left li ul li a,
+#left li ul li a:hover,
+#left li ul li a:active,
+#left li ul li a:visited {
+	text-decoration:none;
+	color:#464749;
+}
+
+#right {
+	width:600px;
+	float:right;
+	margin:14px 20px 0 0;
+}
+
+#footer p {
+	color:#fff;
+	padding:8px 0 0 20px;
+	margin:0px;
+	float:left;
+}
+
+
+/* ----------HOME PAGE---------- */
+
+.title {
+	font-size:20px;
+	font-weight:normal;
+	color:#FFF;
+	background-color:#61131A;
+	padding:10px;
+}
+
+.introbullets {
+	font-size:12px;
+	margin:10px 0;
+	padding:0 0 0 13px;
+}
+.introbullets li {
+	padding:0 0 7px;
+}
+
+#welcome {
+	margin:0 0 10px 0;
+	padding:15px;
+	color:#FFF;
+	background-color:#61131A;
+}
+
+
+#welcome p {
+	padding:0;
+	margin:7px 0 0 0;
+}
+
+
+
+/* ----------about us---------- */
+
+
+#aboutusframes {
+	padding:10px;
+	margin:0 0 7px 0;
+	border-bottom:#000 1px dotted;
+}
+
+#leftcol {
+	float:left;
+	display:block;
+	width:282px;
+}
+
+#rightcol {
+	float:right;
+	display:block;
+	width:282px;
+}
+
+
+
+
+
+/* ----------FLATS---------- */
+
+#framesgrey {
+	padding:10px 10px 3px 10px;
+	background-color:#d5d8da;
+}
+
+#flatsframes {
+	padding:0 0 10px;
+	margin:0 0 7px 0;
+	border-bottom:#000 1px dotted;
+}
+
+#flatsleftcol {
+	float:left;
+	display:block;
+	width:292px;
+}
+
+#flatsrightcol {
+	float:right;
+	display:block;
+	width:292px;
+}
+
+#redframe {
+	padding:10px 10px 3px 10px;
+	color:#FFF;
+	background-color:#61131A;
+}
+
+#redframe a,
+#redframe a:active,
+#redframe a:visited {
+	color:#FFF;
+}
+
+#redframe a:hover {
+	text-decoration:none;
+	color:#999;
+}
+
+#redframe ul {
+	padding:0px;
+	margin:0 0 0 12px;
+}
+
+#redframe li {
+	padding:0 0 7px 0;
+}
+
+#bottomframes {
+	padding:10px;
+	margin:0 0 7px 0;
+}
+
+.area td {
+	padding:5px 0;
+	border-bottom: #000 dotted 1px;
+}
+
+
+
+/* ----------NEWS---------- */
+
+#newscontainer {
+	padding-bottom:10px;
+	margin-bottom:20px;
+	border-bottom:#000 dotted 1px;
+}
+
+
+/* ----------MISC---------- */
+
+#widget-page h2 {
+	font-size:16px;
+	font-weight:bold;
+	padding:0;
+	margin:10px 0 0 0;
+	color:#61131A;
+}
+
+
+/* ----------sticky footer---------- */
+
+html, body {    
+   height: 100%; 
+}
+
+#footer {
+	margin:auto;
+	width:900px;
+	height:32px;
+	position:relative;
+	background:url(images/footer.png);
+}
+
+
+/* ----------FONTS---------- */
+
+
+h2 {
+	font-size:36px;
+	font-weight:lighter;
+	padding:0 0 10px 0;
+	margin:0;
+}
+
+h3 {
+	font-size:16px;
+	font-weight:bold;
+	padding:0;
+	margin:0 0 10px 0;
+	color:#61131A;
+}
+
+h4 {
+	font-size:24px;
+	font-weight:normal;
+	padding:0;
+	margin:0 0 5px 0;
+	color:#61131A;
+	line-height:28px;
+}
+
+h5 {
+	font-size:16px;
+	font-weight:normal;
+	padding:0;
+	margin:0 0 10px 0;
+	color:#000000;
+	line-height:20px;
+}
+
+p {
+	padding:0px;
+	margin:0 0 7px 0;
+}
+
+.red {
+	color:#61131A;
+}
+
+
+
+
+/* ----------MISC---------- */
+
+#clearfix {
+	clear:both;
+}
+
+#clearfix3 {
+	clear:both;
+	height:3px;
+}
+
+#clearfix10 {
+	clear:both;
+	height:10px;
+}
+
+#clearfix14 {
+	clear:both;
+	height:14px;
+}
+
+#clearfix20 {
+	clear:both;
+	height:20px;
+}
+
